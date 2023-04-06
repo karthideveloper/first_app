@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function PostList({ res }) {
   return (
     <>
@@ -6,10 +8,12 @@ function PostList({ res }) {
       {res.map((re) => {
         return (
           <div key={re.id}>
+            <Link href={`/posts/${re.id}`}>
             <h2>
               {re.id}{' '}
               {re.title}
             </h2>
+            </Link>
           </div>
         );
       })}
@@ -24,7 +28,7 @@ export async function getStaticProps() {
   const data = await result.json();
   return {
     props: {
-      res: data.slice(0, 3),
+      res: data,
     },
   };
 }

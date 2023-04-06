@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <h1>React Re rendering</h1>
-      <Link href='posts'>navigate to post</Link>
+      <Link href='/posts'>navigate to post</Link>
     </>
   )
 }

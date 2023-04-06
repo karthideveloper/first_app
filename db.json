@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "product 1",
+      "price": 1000,
+      "description": "Product description"
+    },
+    {
+      "id": 2,
+      "title": "product 2",
+      "price": 2000,
+      "description": "Product description"
+    },
+    {
+      "id": 3,
+      "title": "product 3",
+      "price": 3000,
+      "description": "Product description"
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "title": "product 1",
+      "category": "sports",
+      "description": "Product description"
+    },
+    {
+      "id": 2,
+      "title": "product 2",
+      "category": "politics",
+      "description": "Product description"
+    },
+    {
+      "id": 3,
+      "title": "product 3",
+      "category": "agriculture",
+      "description": "Product description"
+    }
+  ]
+}
